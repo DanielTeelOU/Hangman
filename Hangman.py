@@ -137,7 +137,7 @@ while True:
 
     #replay or terminate
     while True:
-        answer = input('Run again? (y/n): ')
+        answer = input('Would you like to play again? (y/n): ')
         if answer in ('y', 'n'):
             break
         print('Invalid input. Enter y to continue or n to terminate.')
