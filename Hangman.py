@@ -135,6 +135,7 @@ while True:
     #inititialize the game
     play()
 
+    #replay or terminate
     while True:
         answer = input('Run again? (y/n): ')
         if answer in ('y', 'n'):
